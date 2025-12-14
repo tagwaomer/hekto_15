@@ -124,9 +124,8 @@ gap:15px;
 
 @media screen and (min-width:0) and (max-width:650px) {
    .footer .left-side ,
-   .footer .right-side {
-  background-color: #FB2E86;
-  width:100;
+   .footer .right-side { 
+   width: 100%;
    } 
   
 }
