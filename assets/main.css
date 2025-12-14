@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    height: 7000px;
+      margin-top: 120px; 
+}
+:root{
+    --primary:#0D0E43;
+    --primary-2:#FB2E86;
+}
+.container{
+  
+    width:100%;
+   margin: 0 auto;
+   padding: 0 50px;
+   max-width: 1400px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.btn {
+    border: 0;
+    padding: 5px 2px;
+   background-color:var(--primary-2) ;
+    color: whitesmoke;
+}
+
+    
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+  position: fixed;
+  
+}
+
+.header ul{
+    display: flex;
+    gap: 36px;
+  
+}
+  ul .home{
+    color:var(--primary-2) ;
+}
+ul li a{
+    color: var(--primary);
+}
+.header input,.footer input{
+    border: 0;
+    padding-left: 5px;
+  padding:5px 5px;
+}
+.header .search-form, .footer .search-form{
+  
+ border:solid 1px rgb(233, 223, 223);
+    display: flex;
+}
+
+.header ul :hover{
+color:var(--primary-2);
+}
+.footer{
+    padding: 50px 0;
+    
+}
+.footer .row{
+    gap: 20px;
+    align-items: flex-start;
+}
+.footer .left-side{
+    width:calc( (100% - 20px) / 2);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+     align-items: flex-start;
+}
+.footer .address ul{
+    display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+gap:15px;
+}
+.footer .right-side{
+      width:calc( (100% - 20px) / 2);
+}
+.right-side .footer-items{
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+gap:15px;
+}
+.right-side .footer-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.menu{
+  display:none;
+}
+@media screen and (min-width:0) and (max-width:650px){
+.header .list,
+.header .search-form {
+    display: none;
+   }
+.menu{
+    display: block;
+   }
+
+}
+
+@media screen and (min-width:0) and (max-width:650px) {
+   .footer .left-side ,
+   .footer .right-side {
+  background-color: #FB2E86;
+  width:100;
+   } 
+  
+}
+
