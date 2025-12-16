@@ -15,7 +15,7 @@ body{
       margin-top: 120px; 
 }
 :root{
-    --primary:#0D0E43;
+    --primary:#0a0c76;
     --primary-2:#FB2E86;
 }
 .container{
@@ -89,7 +89,7 @@ color:var(--primary-2);
      align-items: flex-start;
 }
 .footer .address ul{
-    display: flex;
+ display: flex;
 flex-wrap:wrap;
 flex-direction: column;
 gap:15px;
@@ -129,4 +129,70 @@ gap:15px;
    } 
   
 }
-
+.hero{
+    background-image: url("/assets/images/Rectangle 102.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 0;
+}
+.hero-content{
+color:var(--primary);
+}
+@media screen and (min-width:0) and (max-width:650px) {
+   .hero ,
+   .hero-content { 
+   width: 100%;
+   }  
+}
+.products{
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap:20px; 
+}
+.product{
+     width:calc((100% - 60) /4);
+    display: flex;
+    flex-direction: column;
+   gap:10px;
+   border: 1px solid #ddd;
+   border-radius: 1px;
+  box-shadow:2px 2px 2px 2px rgb(216, 214, 214) ;
+}
+.product h2{
+    color:var(--primary-2);
+}
+.featured{
+    text-align: center;
+    color:var(--primary);
+    margin:20px;
+}
+.img{
+    width: 270px;
+    height: 270px;
+    background-color:#F6F7FB ;
+}
+.btn-color
+{
+ border: 0; 
+ border-radius: 5px; 
+ outline: 0; width:30px;
+  height: 10px;
+ } 
+ .color-one{
+     background-color: rgb(8, 196, 196);
+     }
+.color-two{
+     background-color:var(--primary-2);
+     } 
+.color-three{ 
+    background-color:var(--primary);
+ }
