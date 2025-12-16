@@ -177,8 +177,8 @@ color:var(--primary);
     margin:20px;
 }
 .img{
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     background-color:#F6F7FB ;
 }
 .btn-color
@@ -197,3 +197,10 @@ color:var(--primary);
 .color-three{ 
     background-color:var(--primary);
  }
+ @media screen and (min-width:0) and (max-width:650px) {
+.products{
+    
+   width: 100%;
+    
+}
+}
