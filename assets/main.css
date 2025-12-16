@@ -131,7 +131,7 @@ gap:15px;
   
 }
 .hero{
-    background-image: url('././images/Rectangle 102.png');
+    background-image: url('./images/Rectangle 102.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
