@@ -202,8 +202,8 @@ color:var(--primary);
 /* Icons over image */
 .cdn-img {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 2px;
+  left: 10px;
   display: flex;
   gap: 8px;
   opacity: 0;
@@ -260,7 +260,8 @@ font-family:Josefin Sans ;
 @media screen and (min-width:0) and (max-width:650px) {
    .products{
    flex-direction: column;
-  
+   align-items: center;
+  width:100%;
 }
 .product{
   width:80%;
@@ -456,7 +457,7 @@ display: flex;
   justify-content: center;
   align-items: center;
   gap:10px;
-   border: 1px solid #ddd;
+ border: 1px solid #ddd;
   border-radius: 3px;
   box-shadow: 2px 2px 2px 2px rgb(216, 214, 214);
   padding:50px 10px;
@@ -471,17 +472,17 @@ display: flex;
   text-align: center;
   padding: 20px 0;
 }
-@media screen and (min-width:0) and (max-width:650px){
+@media screen and (min-width:0) and (max-width:650px) {
   .items{
 width: 100%;
     flex-direction: column;
+    align-items: center;
   }
   .item{
-    width: 80%;
+    width: 100%;
     text-align: center;
   }
 }
-
 .trending{
  text-align: center;
 }
