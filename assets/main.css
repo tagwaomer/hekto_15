@@ -151,7 +151,7 @@ color:var(--primary);
    font-size: 12px;
    }  
 }
-.hero-sections{
+.heroO-sections{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -173,7 +173,7 @@ color:var(--primary);
   font-size: 14px;
 }
 @media screen and (min-width:0) and (max-width:650px) {
-   .hero-sections 
+   .heroO-sections 
    {flex-direction: column;
     width: 100%;
    font-size: 12px;
